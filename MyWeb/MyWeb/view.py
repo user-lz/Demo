@@ -9,4 +9,4 @@ def User_Information(request):
     return render(request, 'User.html', context)
 
 def index(request):
-    return render(request, 'index.html', locals())   
+    return render(request, 'index.html', locals())

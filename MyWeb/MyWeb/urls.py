@@ -23,5 +23,5 @@ urlpatterns = [
     url(r'^InsertPhone/',MyPhoneDB.insertDB),
     url(r'^ShowPhone/',testdb.showPhone),
     url(r'^index/',view.index),   
-    url(r'^User/',view.User_Information),  
+    url(r'^User/',view.User_Information),   
 ]

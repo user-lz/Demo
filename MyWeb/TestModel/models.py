@@ -11,4 +11,6 @@ class Phones(models.Model):
     pPrice = models.CharField(max_length=20)
     pContent = models.CharField(max_length=100)
     pFile = models.CharField(max_length=20)
-      
+class User(models.Model):
+    name = models.CharField(max_length=128,unique=True)
+    password = models.CharField(max_length=256)  
